@@ -1,0 +1,36 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(40, 40, 236);
+}
+.mainContainer div input{
+    height: 1cm;
+    width: 8cm;
+    margin-top: 1cm;
+    border-radius: 30px;
+}
+.mainContainer div button{
+    margin-top: 1cm;
+    width: 6cm;
+    height: 1cm;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color: rgb(40, 40, 236);
+    color: white;
+}
+.head{
+    display: flex;
+}
+
+.mainContainer div img{
+    height: 3cm;
+}
+.error{
+    color: red;
+}
+.login{
+    margin-left: 30cm;
+}
